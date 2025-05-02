@@ -1,0 +1,36 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
+.container{
+    max-width: 1240px;
+    margin:0 auto;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px;
+}
+.header__links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.header__link{
+    color: #161616;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+/* home section style */
+.home__wrapper{
+    display:flex;
+    align-items: center;
+    gap: 15px;
+}\
+
+/* home section style ends */
