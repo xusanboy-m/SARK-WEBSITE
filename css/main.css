@@ -118,7 +118,8 @@ body{
     justify-content: space-between;
     gap: 15px;
 }
-.content__left--title{
+.content__left--title,
+.comment__right--title{
     color: #12141D;
     font-size: 48px;
     font-weight: 700px;
@@ -126,7 +127,8 @@ body{
     letter-spacing: -1px;
     max-width: 400px;
 }
-.content__left--description{
+.content__left--description,
+.comment__right--description{
     color: #12141D;
     font-size: 16px;
     font-weight: 400;
@@ -135,3 +137,13 @@ body{
     margin-top: 10px;
 }
 /* content section style ends */
+/* comment section style */
+.comment__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    gap: 5em;
+}
+
+/* comment section style ends */
