@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
     padding:0;
     margin: 0;
     box-sizing: border-box;
     transition: all 0.3s linear;
 }
+body{
+    font-family: "Inter", sans-serif;
+}
+.hero{
+    background-image: url(../image/vector.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: right;
+    background-color: #fafafa;
+}
+
 .container{
     max-width: 1240px;
     margin:0 auto;
@@ -65,3 +77,36 @@
     margin-top: 20px;
 }
 /* home section style ends */
+/* proper section sstyle */
+.proper__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.proper__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.proper__title{
+    color: #12141D;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 10px 0 10px 0;
+}
+.proper__description{
+    color: #12141D;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+.proper__span{
+    height: 211px;
+    width: 2px;
+    color: #E4E4E7;
+    border: 1px solid #E4E4E7;
+}
+/* proper section style ends */
