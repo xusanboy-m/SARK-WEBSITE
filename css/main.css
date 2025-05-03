@@ -102,6 +102,7 @@ body{
     font-size: 16px;
     font-weight: 400px;
     line-height: 26px;
+    opacity: 80%;
 }
 .proper__span{
     height: 211px;
@@ -110,3 +111,27 @@ body{
     border: 1px solid #E4E4E7;
 }
 /* proper section style ends */
+/* content section style */
+.content__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.content__left--title{
+    color: #12141D;
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    max-width: 400px;
+}
+.content__left--description{
+    color: #12141D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 80%;
+    margin-top: 10px;
+}
+/* content section style ends */
