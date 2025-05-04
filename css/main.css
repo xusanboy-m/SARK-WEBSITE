@@ -149,12 +149,41 @@ body{
 
 /* comment section style ends */
 /* testim section style */
+.testim__wrapper{
+    background-color:#18181B;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    padding: 30px;
+}
 .testim__top{
     text-align: center;
+    margin-right: 150px;
+}
+.testim__top--title{
     font-size: 48px;
-    font-family: "Space Grotesk", sans-serif;
-    line-height: 56px;
-    letter-spacing: -1;
     font-weight: 700;
+    letter-spacing: -1;
+    color: #ffffff;
+    line-height: 56px;
+    text-align: center;
+    max-width: 600px;
+}
+.testim__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.testim__right--text,
+.testim__left--text{
+    color: #fff;
+    font-size: 16px;
+    line-height: 36px;
+    align-items: center;
+    justify-content:center;
+    max-width: 300px;
+    text-align: center;
+
 }
 /* testim section style ends */
