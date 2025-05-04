@@ -158,7 +158,8 @@ body{
 }
 .testim__top{
     text-align: center;
-    margin-right: 150px;
+    margin-left: 250px; 
+     font-family: "Space Grotesk", sans-serif;
 }
 .testim__top--title{
     font-size: 48px;
@@ -175,15 +176,53 @@ body{
     justify-content: space-between;
     gap: 15px;
 }
+.testim__cards{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
 .testim__right--text,
 .testim__left--text{
     color: #fff;
-    font-size: 16px;
-    line-height: 36px;
-    align-items: center;
-    justify-content:center;
-    max-width: 300px;
-    text-align: center;
-
+    margin: 10px;
 }
 /* testim section style ends */
+/* proqtiq section style */
+.proqtiq__wrapper{
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+}
+.proqtiq__top{
+    align-items: center;
+    text-align: center;
+    font-size: 48;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1px;
+    font-family: "Space Grotesk", sans-serif;
+}
+.proqtiq__top--subtitle,
+.proqtiq__cord--subtitle{
+    color: #12141d;
+    opacity: 80%;
+    font-size: 18px;
+    line-height: 36px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.proqtiq__cords{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.proqtiq__cord{
+    width: 319px;
+    height: 352px;
+    border: 1px solid black;
+    border-left: 5px;
+    border-right: 5px;
+}
+/* proqtiq section style ends */
