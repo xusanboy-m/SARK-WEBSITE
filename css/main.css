@@ -10,10 +10,9 @@ body{
     font-family: "Inter", sans-serif;
 }
 .hero{
-    background-image: url(../image/vector.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-position: right;
+    
+    
+    
     background-color: #fafafa;
 }
 
@@ -196,11 +195,13 @@ body{
 .proqtiq__top{
     align-items: center;
     text-align: center;
-    font-size: 48;
+    font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -1px;
     font-family: "Space Grotesk", sans-serif;
+    width: 1000px;
+    margin: 30px;
 }
 .proqtiq__top--subtitle,
 .proqtiq__cord--subtitle{
@@ -211,8 +212,10 @@ body{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     letter-spacing: 0;
+    margin-bottom: 20px;
 }
 .proqtiq__cords{
+    margin: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -224,5 +227,25 @@ body{
     border: 1px solid black;
     border-left: 5px;
     border-right: 5px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.proqtiq__cord > button{
+    width: 100%;
+}
+.section__btn2{
+    width: 319px;
+    height: 48px;
+    color: #fff;
+    background-color: #201F22;
+    border:none;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.section__btn2:hover{
+    cursor: pointer;
+    background-color: #EF4444;
 }
 /* proqtiq section style ends */
