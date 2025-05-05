@@ -205,6 +205,7 @@ body{
 }
 .proqtiq__top--subtitle,
 .proqtiq__cord--subtitle{
+    margin: 10px;
     color: #12141d;
     opacity: 80%;
     font-size: 18px;
@@ -212,7 +213,6 @@ body{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     letter-spacing: 0;
-    margin-bottom: 20px;
 }
 .proqtiq__cords{
     margin: 15px;
@@ -247,5 +247,30 @@ body{
 .section__btn2:hover{
     cursor: pointer;
     background-color: #EF4444;
+}
+.proqtiq__bottom--subtitle{
+    margin: 10px;
+    color: #12141D;
+    opacity: 80%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.proqtiq__bottom--text{
+    margin: 5px;
+    color: #12141D;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 80%;
+    margin-bottom: 15px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    width: 200px;
+    text-align: center;
+}
+.proqtiq__span{
+    margin-top:10px ;
+    color: #12141D;
+    font-size: 16px;
+    font-weight: 500;
 }
 /* proqtiq section style ends */
