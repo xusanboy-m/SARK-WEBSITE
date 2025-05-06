@@ -274,3 +274,43 @@ body{
     font-weight: 500;
 }
 /* proqtiq section style ends */
+/* footer section style  */
+.footer{
+    background-color: #fafafa;
+}
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+.footer__left--title{
+    font-family: "Space Grotesk", sans-serif;
+    color: #12141d;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+}
+.footer__left--subtitle{
+    margin: 10px 0 10px 0;
+    color: #12141D;
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    line-height: 26px;
+}
+.footer__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer__card{
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+/* footer section style ends */
